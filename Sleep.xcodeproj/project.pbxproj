@@ -14,6 +14,8 @@
 		69D537242217DE6200A11E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D537222217DE6200A11E1E /* LaunchScreen.storyboard */; };
 		69D5372F2217DE6200A11E1E /* SleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D5372E2217DE6200A11E1E /* SleepTests.swift */; };
 		69D5373A2217DE6200A11E1E /* SleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D537392217DE6200A11E1E /* SleepUITests.swift */; };
+		69D537482217E78700A11E1E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D537472217E78700A11E1E /* RecordViewController.swift */; };
+		69D5374A2217E86D00A11E1E /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D537492217E86D00A11E1E /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		69D537352217DE6200A11E1E /* SleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D537392217DE6200A11E1E /* SleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepUITests.swift; sourceTree = "<group>"; };
 		69D5373B2217DE6200A11E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D537472217E78700A11E1E /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		69D537492217E86D00A11E1E /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				69D537202217DE6200A11E1E /* Assets.xcassets */,
 				69D537222217DE6200A11E1E /* LaunchScreen.storyboard */,
 				69D537252217DE6200A11E1E /* Info.plist */,
+				69D537472217E78700A11E1E /* RecordViewController.swift */,
+				69D537492217E86D00A11E1E /* SaveViewController.swift */,
 			);
 			path = Sleep;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D537482217E78700A11E1E /* RecordViewController.swift in Sources */,
+				69D5374A2217E86D00A11E1E /* SaveViewController.swift in Sources */,
 				69D5371C2217DE6000A11E1E /* ViewController.swift in Sources */,
 				69D5371A2217DE6000A11E1E /* AppDelegate.swift in Sources */,
 			);
